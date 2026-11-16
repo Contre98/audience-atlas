@@ -1,18 +1,13 @@
 # Audience Atlas
 
-A standalone interactive website for exploring fictional adult customer-research personas in two contexts:
+A standalone Carbon-styled explorer of first-person accounts about naltrexone for alcohol use disorder and varenicline for quitting cigarettes.
 
-- Naltrexone and alcohol use disorder
-- Varenicline and quitting cigarettes
+Live: https://contre98.github.io/audience-atlas/
 
-Each context contains seven illustrative profiles, a Venn diagram of stated priorities, a categorical radial diagram, demographic and treatment-outlook filters, and a comparison view for up to three profiles. The website can export SVG diagrams and CSV profile data. URL fragments preserve the selected view for sharing.
+Open `index.html` directly, or serve this directory with any static HTTP server. No build step, API keys, tracking, or runtime dependencies. IBM Carbon CSS and IBM Plex Sans are embedded; see THIRD-PARTY-NOTICES.txt.
 
-The personas are constructed examples, not population data or predictions of treatment uptake, benefit, or clinical suitability. Clinical context and links to NIAAA and CDC guidance are included in the website's Method panel.
+Features: a needs matrix, animated interactive Venn and radial diagrams, treatment and demographic/outlook filters, up-to-three-account comparisons, original evidence links, method notes, CSV exports, SVG diagram downloads, keyboard controls, reduced-motion support, and shareable URL state.
 
-## Run
+The 14 profiles are summaries of public accounts, not fictional demographic personas or validated ICPs. Missing demographics remain missing. Read [RESEARCH.md](RESEARCH.md) for sources, interpretation rules and limitations. The personal vlog contributes its creator-written description only, not reviewed video content.
 
-Open `index.html` directly in a browser, or serve this directory with any static web server. IBM Carbon styles and IBM Plex Sans fonts are embedded in the HTML. No build step, network assets, analytics, or backend services are needed. Third-party licenses are included in THIRD-PARTY-NOTICES.txt.
-
-## Hosting
-
-The root of the `main` branch is the GitHub Pages publishing source.
+Published with GitHub Pages from the main branch root.
