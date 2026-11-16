@@ -11,7 +11,7 @@ The personas are constructed examples, not population data or predictions of tre
 
 ## Run
 
-Open `index.html` directly in a browser, or serve this directory with any static web server. There are no dependencies, build steps, analytics, external assets, or backend services.
+Open `index.html` directly in a browser, or serve this directory with any static web server. IBM Carbon styles and IBM Plex Sans fonts are embedded in the HTML. No build step, network assets, analytics, or backend services are needed. Third-party licenses are included in THIRD-PARTY-NOTICES.txt.
 
 ## Hosting
 
